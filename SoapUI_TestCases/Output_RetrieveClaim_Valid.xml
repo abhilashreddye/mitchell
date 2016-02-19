@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns3:RetrieveClaimResponse xmlns:ns2="http://www.mitchell.com/examples/claim" xmlns:ns3="http://ws.claims.mitchell.com/">
+         <MitchellClaim>
+            <ns2:ClaimNumber>test_22c9c23bac142856018ce14a26b6c299</ns2:ClaimNumber>
+            <ns2:ClaimantFirstName>George</ns2:ClaimantFirstName>
+            <ns2:ClaimantLastName>Washington</ns2:ClaimantLastName>
+            <ns2:Status>OPEN</ns2:Status>
+            <ns2:LossDate>2014-07-15T17:19:14.000-07:00</ns2:LossDate>
+            <ns2:LossInfo>
+               <ns2:CauseOfLoss>Collision</ns2:CauseOfLoss>
+               <ns2:ReportedDate>2014-07-10T17:19:14.000-07:00</ns2:ReportedDate>
+               <ns2:LossDescription>Crashed into an apple tree.</ns2:LossDescription>
+            </ns2:LossInfo>
+            <ns2:AssignedAdjusterID>12345</ns2:AssignedAdjusterID>
+            <ns2:Vehicles>
+               <ns2:VehicleDetails>
+                  <ns2:ModelYear>2015</ns2:ModelYear>
+                  <ns2:MakeDescription>Ford</ns2:MakeDescription>
+                  <ns2:ModelDescription>Mustang</ns2:ModelDescription>
+                  <ns2:EngineDescription>EcoBoost</ns2:EngineDescription>
+                  <ns2:ExteriorColor>Deep Impact Blue</ns2:ExteriorColor>
+                  <ns2:Vin>test1_1M8GDM9AXKP042788</ns2:Vin>
+                  <ns2:LicPlate>NO1PRES</ns2:LicPlate>
+                  <ns2:LicPlateState>VA</ns2:LicPlateState>
+                  <ns2:LicPlateExpDate>2015-03-10-07:00</ns2:LicPlateExpDate>
+                  <ns2:DamageDescription>Front end smashed in. Apple dents in roof.</ns2:DamageDescription>
+                  <ns2:Mileage>1776</ns2:Mileage>
+               </ns2:VehicleDetails>
+               <ns2:VehicleDetails>
+                  <ns2:ModelYear>2015</ns2:ModelYear>
+                  <ns2:MakeDescription>Ford</ns2:MakeDescription>
+                  <ns2:ModelDescription>Mustang</ns2:ModelDescription>
+                  <ns2:EngineDescription>EcoBoost</ns2:EngineDescription>
+                  <ns2:ExteriorColor>Deep Impact Blue</ns2:ExteriorColor>
+                  <ns2:Vin>test2_1M8GDM9AXKP042788</ns2:Vin>
+                  <ns2:LicPlate>NO1PRES</ns2:LicPlate>
+                  <ns2:LicPlateState>VA</ns2:LicPlateState>
+                  <ns2:LicPlateExpDate>2015-03-10-07:00</ns2:LicPlateExpDate>
+                  <ns2:DamageDescription>Front end smashed in. Apple dents in roof.</ns2:DamageDescription>
+                  <ns2:Mileage>1776</ns2:Mileage>
+               </ns2:VehicleDetails>
+               <ns2:VehicleDetails>
+                  <ns2:ModelYear>2015</ns2:ModelYear>
+                  <ns2:MakeDescription>Ford</ns2:MakeDescription>
+                  <ns2:ModelDescription>Mustang</ns2:ModelDescription>
+                  <ns2:EngineDescription>EcoBoost</ns2:EngineDescription>
+                  <ns2:ExteriorColor>Deep Impact Blue</ns2:ExteriorColor>
+                  <ns2:Vin>test3_1M8GDM9AXKP042788</ns2:Vin>
+                  <ns2:LicPlate>NO1PRES</ns2:LicPlate>
+                  <ns2:LicPlateState>VA</ns2:LicPlateState>
+                  <ns2:LicPlateExpDate>2015-03-10-07:00</ns2:LicPlateExpDate>
+                  <ns2:DamageDescription>Front end smashed in. Apple dents in roof.</ns2:DamageDescription>
+                  <ns2:Mileage>1776</ns2:Mileage>
+               </ns2:VehicleDetails>
+            </ns2:Vehicles>
+         </MitchellClaim>
+      </ns3:RetrieveClaimResponse>
+   </S:Body>
+</S:Envelope>

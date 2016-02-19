@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.claims.mitchell.com/" xmlns:cla="http://www.mitchell.com/examples/claim">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:CreateClaim>
+         <MitchellClaim>
+            <cla:ClaimNumber>test2_22c9c23bac142856018ce14a26b6c299</cla:ClaimNumber>
+         </MitchellClaim>
+      </ws:CreateClaim>
+   </soapenv:Body>
+</soapenv:Envelope>

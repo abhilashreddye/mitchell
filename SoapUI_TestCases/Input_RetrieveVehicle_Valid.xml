@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.claims.mitchell.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:RetrieveVehicle>
+         <ClaimNumber>test_22c9c23bac142856018ce14a26b6c299</ClaimNumber>
+         <Vin>test1_1M8GDM9AXKP042788</Vin>
+      </ws:RetrieveVehicle>
+   </soapenv:Body>
+</soapenv:Envelope>

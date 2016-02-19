@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns3:CreateClaimResponse xmlns:ns2="http://www.mitchell.com/examples/claim" xmlns:ns3="http://ws.claims.mitchell.com/">
+         <Result>SUCCESS</Result>
+      </ns3:CreateClaimResponse>
+   </S:Body>
+</S:Envelope>

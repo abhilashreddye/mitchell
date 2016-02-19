@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.claims.mitchell.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:DeleteClaim>
+         <ClaimNumber>Invalid</ClaimNumber>
+      </ws:DeleteClaim>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.claims.mitchell.com/" xmlns:cla="http://www.mitchell.com/examples/claim">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:CreateClaim>
+         <MitchellClaim>
+            <cla:ClaimNumber>22c9c23bac142856018ce14a26b6c299</cla:ClaimNumber>
+            <!--Optional:-->
+            <cla:ClaimantFirstName>George</cla:ClaimantFirstName>
+            <!--Optional:-->
+            <cla:ClaimantLastName>Washington</cla:ClaimantLastName>
+            <!--Optional:-->
+            <cla:Status>OPEN</cla:Status>
+            <!--Optional:-->
+            <cla:LossDate>2014-07-09T17:19:13.631-07:00</cla:LossDate>
+            <!--Optional:-->
+            <cla:LossInfo>
+               <!--Optional:-->
+               <cla:CauseOfLoss>Collision</cla:CauseOfLoss>
+               <!--Optional:-->
+               <cla:ReportedDate>2014-07-10T17:19:13.676-07:00</cla:ReportedDate>
+               <!--Optional:-->
+               <cla:LossDescription>Crashed into an apple tree.</cla:LossDescription>
+            </cla:LossInfo>
+            <!--Optional:-->
+            <cla:AssignedAdjusterID>12345</cla:AssignedAdjusterID>
+            <!--Optional:-->
+            <cla:Vehicles>
+               <!--1 or more repetitions:-->
+               <cla:VehicleDetails>
+                  <cla:ModelYear>2015</cla:ModelYear>
+                  <!--Optional:-->
+                  <cla:MakeDescription>Ford</cla:MakeDescription>
+                  <!--Optional:-->
+                  <cla:ModelDescription>Mustang</cla:ModelDescription>
+                  <!--Optional:-->
+                  <cla:EngineDescription>EcoBoost</cla:EngineDescription>
+                  <!--Optional:-->
+                  <cla:ExteriorColor>Deep Impact Blue</cla:ExteriorColor>
+                  <!--Optional:-->
+                  <cla:Vin>1M8GDM9AXKP042788</cla:Vin>
+                  <!--Optional:-->
+                  <cla:LicPlate>NO1PRES</cla:LicPlate>
+                  <!--Optional:-->
+                  <cla:LicPlateState>VA</cla:LicPlateState>
+                  <!--Optional:-->
+                  <cla:LicPlateExpDate>2015-03-10-07:00</cla:LicPlateExpDate>
+                  <!--Optional:-->
+                  <cla:DamageDescription>Front end smashed in. Apple dents in roof.</cla:DamageDescription>
+                  <!--Optional:-->
+                  <cla:Mileage>1776</cla:Mileage>
+               </cla:VehicleDetails>
+            </cla:Vehicles>
+         </MitchellClaim>
+      </ws:CreateClaim>
+   </soapenv:Body>
+</soapenv:Envelope>

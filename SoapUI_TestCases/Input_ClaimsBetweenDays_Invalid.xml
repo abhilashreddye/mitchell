@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.claims.mitchell.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:ClaimsBetweenDates>
+         <FromDate>2014-07-01T17:19:13.631-07:00</FromDate>
+         <ToDate>2014-07-03T17:19:13.631-07:00</ToDate>
+      </ws:ClaimsBetweenDates>
+   </soapenv:Body>
+</soapenv:Envelope>
