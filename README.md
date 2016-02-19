@@ -1,5 +1,3 @@
-Readme.txt
-
 MitchellV1.1
 ------------
 
